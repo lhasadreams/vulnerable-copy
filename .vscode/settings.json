@@ -1,0 +1,26 @@
+{
+    "wiz.showOnlyPolicyCodeMatches": false,
+    "wiz.showOnlyPolicyImageMatches": false,
+    "sarif-viewer.connectToGithubCodeScanning": "on",
+    "wiz.codePolicies.secrets": [
+        "Default secrets policy"
+    ],
+    "wiz.codePolicies.sensitiveData": [
+        "Default sensitive data policy"
+    ],
+    "wiz.codePolicies.vulnerabilities": [
+        "Default vulnerabilities policy"
+    ],
+    "wiz.codePolicies.IAC Configuration": [
+        "Default IaC policy"
+    ],
+    "wiz.buildPolicies.secrets": [
+        "Default secrets policy"
+    ],
+    "wiz.buildPolicies.sensitiveData": [
+        "Default sensitive data policy"
+    ],
+    "wiz.buildPolicies.vulnerabilities": [
+        "Default vulnerabilities policy"
+    ]
+}
