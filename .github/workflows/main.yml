@@ -7,9 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SCAN_PATH: "." # Set the relative path in the repo to scan
-      VULN_POLICY: "Default vulnerabilities policy" # Set the desired Wiz CLI policy to use
-      SENSITIVE_DATA_POLICY: "Default sensitive data policy" # Set the desired Wiz CLI policy to use
-      SECRETS_POLICY: "AFD secrets policy" # Set the desired Wiz CLI policy to use
       MALWARE_POLICY: "Default malware policy" # Set the desired Wiz CLI policy to use
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
@@ -32,4 +29,4 @@ jobs:
           WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
       - name: Run wiz CLI dir scan
-        run: ./wizcli dir scan --path $SCAN_PATH --policy "$VULN_POLICY" --policy "$SENSITIVE_DATA_POLICY" --policy "$SECRETS_POLICY" --policy "$MALWARE_POLICY"
+        run: ./wizcli dir scan --path $SCAN_PATH --policy "$MALWARE_POLICY"
