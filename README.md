@@ -121,3 +121,5 @@ Repo: https://github.com/dehvCurtis/vulnerable-code-examples/tree/main/SCA
 | Location        | File     | CWE / Exposure    | # of Exposures |
 | ----------       | -----------                  | ------- | - |
 | `SCA/ruby` | `Gemfile` | dependencies | 2 |
+
+Minor update
