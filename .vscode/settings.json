@@ -22,5 +22,6 @@
     ],
     "wiz.buildPolicies.vulnerabilities": [
         "Default vulnerabilities policy"
-    ]
+    ],
+    "wiz.showOnlyPolicyMatches": false
 }
